@@ -18,4 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^movies/getmovie/','movie.views.get_movies', name = 'getMovies'), 
+    url(r'^tweets/gettweets/','tweet.views.get_tweets', name = 'getTweets'),
 ]
