@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'movie',
     'tweet',
+    'django_crontab',
 )
 
 MIDDLEWARE_CLASSES = (
